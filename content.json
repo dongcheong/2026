@@ -1,9 +1,9 @@
 {
-  "대문이미지": "",
-  "대문이미지링크": "",
+  "대문이미지": "https://i.imgur.com/yS8KqAs.png",
+  "대문이미지링크": "https://script.google.com/macros/s/AKfycbx4TGt_6q6tszhUok-vih7bO7jLJ9LxIRbNJ8ppUBkp0AMBHH8R06zH37M51gX8JKnz_g/exec",
 
-  "배너이미지1": "", "배너1": "",
-  "배너이미지2": "", "배너2": "",
+  "배너이미지1": "https://i.imgur.com/zn7zZFs.png", "배너1": "https://form.naver.com/response/NUCBqZXv6N1YZEI17qiKQQ",
+  "배너이미지2": "https://i.imgur.com/yQD5orA.png", "배너2": "https://script.google.com/macros/s/AKfycbx4TGt_6q6tszhUok-vih7bO7jLJ9LxIRbNJ8ppUBkp0AMBHH8R06zH37M51gX8JKnz_g/exec",
   "배너이미지3": "", "배너3": "",
   "배너이미지4": "", "배너4": "",
   "배너이미지5": "", "배너5": "",
@@ -12,25 +12,25 @@
   "배너이미지8": "", "배너8": "",
   "배너이미지9": "", "배너9": "",
 
-  "공지제목": "6월 공지사항",
+  "공지제목": "이번 주 소식",
   "공지내용": "여기에 공지 내용을 입력하세요.",
 
   "추가소식제목": "",
   "추가소식이미지": "",
 
-  "유튜브링크": "",
+  "유튜브링크": "https://www.youtube.com/watch?v=RFUmzcxW1LE",
 
-  "청년부주보": "",
-  "청년부일정": "",
-  "셀배치도": "",
-  "네이버카페": "",
-  "카카오톡채널": "",
-  "인스타그램": "",
-  "동산교회홈페이지": "",
-  "동청플리ZIP #1": "",
-  "청년부소개": "",
-  "써니의서재": "",
-  "사순절말씀읽기": "",
-  "신앙스펙쌓기": "",
-  "동청오늘뭐먹징": ""
+  "청년부주보": "https://m.site.naver.com/1YE0U",
+  "청년부일정": "https://www.miricanvas.com/v2/design2/v/3e226e5c-913a-4ecf-b3cc-3a82a7e3fb76",
+  "셀배치도": "https://www.miricanvas.com/v/15bz64a",
+  "네이버카페": "https://m.cafe.naver.com/ca-fe/basicdongcheong?tc=section_home_my_cafe",
+  "카카오톡채널": "https://pf.kakao.com/_fjgdb",
+  "인스타그램": "https://www.instagram.com/p/DXmF8OtgRlY/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+  "동산교회홈페이지": "http://www.dongsan-church.or.kr/",
+  "동청플리ZIP #1": "https://youtube.com/channel/UChxux6Cu1-_WjE-VyI_-WJQ?si=vZaYzK6Sg1Rn4o-f",
+  "청년부소개": "https://m.cafe.naver.com/ca-fe/web/cafes/28348490/articles/6496?fromList=true&menuId=6&tc=cafe_article_list",
+  "써니의서재": "https://docs.google.com/spreadsheets/d/1aBABxch8vyxaIZoI_es97Uh5mZHrMmp_9WpN1V0ZAHE/edit?usp=drivesdk",
+  "사순절말씀읽기": "https://script.google.com/macros/s/AKfycbyp21qFqx_OJUUthb7t_39n6sk_uc1sq7xqwt2eJOXvU15CgYzs8y7cwjOwMfzd65QImQ/exec",
+  "신앙스펙쌓기": "https://script.google.com/macros/s/AKfycbx4TGt_6q6tszhUok-vih7bO7jLJ9LxIRbNJ8ppUBkp0AMBHH8R06zH37M51gX8JKnz_g/exec",
+  "동청오늘뭐먹징": "https://script.google.com/macros/s/AKfycbwCViWEVJ29WHu4nP48YeB38Y4oEu7ApJCJ9G6swJs3xLD-URQvouqAa9N757Mdyt2kUA/exec"
 }
