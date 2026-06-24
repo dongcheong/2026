@@ -146,11 +146,6 @@
     .carousel-indicator { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; transition: all 0.3s ease; }
     .carousel-indicator.active { background: white; width: 30px; border-radius: 6px; }
     
-    .loading { text-align: center; padding: 120px 25px; color: #666; font-size: 28px; }
-    
-    body.loading-state { display: flex; flex-direction: column; min-height: 100vh; }
-    body.loading-state .container { flex: 1; display: flex; flex-direction: column; }
-    body.loading-state #loading { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; }
     
     .footer { text-align: center; padding: 24px 14px; color: #999; font-size: 11px; background: #fafafa; border-top: 1px solid #eee; }
     
@@ -158,7 +153,7 @@
     @media (max-width: 480px) { .link-buttons { grid-template-columns: repeat(4, 1fr); } }
   </style>
 </head>
-<body class="loading-state">
+<body>
   <div class="menu-button" onclick="toggleMenu()">
     <span></span><span></span><span></span>
   </div>
@@ -187,12 +182,8 @@
       <img id="mainBannerImg" src="" alt="대문이미지">
     </a>
     
-    <div id="loading" class="loading">
-      <img src="https://i.imgur.com/gGplTEP.png" alt="동청 로고" style="width: 300px; height: auto; margin-bottom: 10px;">
-      <p>반짝반짝한 소식들을 차곡차곡 담고 있어요. ✨</p>
-    </div>
     
-    <div id="content" style="display: none;">
+    <div id="content">
       <div class="content-grid">
         <div class="section">
           <div class="section-title">🔗 동청 바로가기</div>
@@ -454,9 +445,6 @@
     };
 
     function displayContent(data) {
-      document.getElementById('loading').style.display = 'none';
-      document.body.classList.remove('loading-state');
-      document.getElementById('content').style.display = 'block';
 
       // 대문이미지
       if (data['대문이미지']) {
@@ -590,8 +578,7 @@
       if (url) { el.href = url; el.style.display = 'block'; } else { el.style.display = 'none'; }
     }
     function showError(msg) {
-      document.body.classList.remove('loading-state');
-      document.getElementById('loading').innerHTML = '<div>⚠️ ' + msg + '</div>';
+      document.getElementById('content').innerHTML = '<div style="padding:20px">⚠️ ' + msg + '</div>';
     }
   </script>
 </body>
